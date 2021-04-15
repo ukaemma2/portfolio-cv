@@ -17,7 +17,7 @@ div.nav-bar {
     width: 100vw;
     background: #03121f;
     box-shadow: 2 2 10px rgba(81, 203, 238, .5);
-    border-bottom: 3px solid #8dc2f7;
+    border-bottom: 5px solid #8dc2f7;
 }
 
 div.logo {
@@ -104,6 +104,36 @@ p{
     cursor:pointer;
     transform: scale(1);
 }
+.box12 {
+    text-align: justify;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: var(--ntp-realbox-height);
+    background-color: white;
+    width: 50%;
+    border-bottom: 5px solid #8dc2f7;
+    cursor:pointer;
+    transform: scale(1);
+    margin-bottom: 1em;
+    padding:1em;
+}
+h4{
+    color: #8dc2f7;
+}
+.box22 {
+    text-align: justify;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: var(--ntp-realbox-height);
+    width: 50%;
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    cursor:pointer;
+    border-bottom: 5px solid #03121f;;
+}
+
+h5{
+    padding :1em 0 1em 0;
+}
 .box1:hover {
     border-bottom: 5px solid #03121f;;
     transform: scale(1.1);
@@ -134,6 +164,7 @@ p{
     cursor:pointer;
     border-bottom: 5px solid #03121f;;
 }
+
 .box3 {
     text-align: center;
     height: 30vh;
@@ -145,7 +176,18 @@ p{
     cursor:pointer;
     /* padding-top: 1em; */
     border-bottom: 5px solid #03121f;;
-    
+}
+.box32{
+    text-align: justify;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: var(--ntp-realbox-height);
+    background-color: white;
+    width: 50% !important;
+    cursor:pointer;
+    padding: 1em;
+    margin-bottom: 1em;
+    /* padding-top: 1em; */
+    border-bottom: 5px solid #03121f;;
 }
 .box4 {
     height: 30vh;
@@ -159,6 +201,18 @@ p{
     border-bottom: 5px solid #8dc2f7;
     text-align: center;
 }
+.box42 {
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: var(--ntp-realbox-height);
+    width: 50%;
+    background-color: white;
+    cursor:pointer;
+    padding: 1em;
+    margin-bottom: 1em;
+    /* padding-top: 1em; */
+    border-bottom: 5px solid #8dc2f7;
+    text-align: justify;
+}
 section {
     margin-top: 2em;
 }
@@ -167,6 +221,114 @@ section {
     font-size: 2em;
     font-weight: 700;
     margin: 1em 0 1em 0;
+}
+div.footer {
+    background: #03121f;;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding: 1em;
+}
+.hy44 {
+    padding: 2em;
+}
+
+div.footer-content {
+    text-align: center;
+}
+
+div.footer-content h4 {
+    color: #bcc3c7;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+div.footer-content p {
+    color: #88949B;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-top: 0.8rem;
+}
+
+div.footer-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 25%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+input[type="email"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 25%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+::placeholder {
+    color: #A6A5AA;
+}
+
+div.footer-textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+textarea {
+    width: 51%;
+    height: 150px;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+}
+
+div.footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+div.footer-btn a {
+    background: #8dc2f7;
+    text-decoration: none;
+    color: #03121f;
+    font-size: 0.9rem;
+    padding: 10px 50px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+div.footer h6 {
+    text-align: center;
+    color: #88949B;
+    font-size: 1rem;
+    padding-top: 6rem;
+}
+.tyt {
+    margin-top: 5em;
 }
 @media only screen and (max-width: 600px) {
     .img1 {
@@ -179,6 +341,12 @@ section {
 
 }
 @media only screen and (max-width: 768px) {
+    .hy44 {
+        padding: 0em;
+    }
+    p {
+        font-size:12px;
+    }
     .dev {
         text-align: center;
         font-size: 1em;
@@ -286,5 +454,104 @@ section {
         color: #304353;
         background: #fff;
         padding: 0.3rem;
+    }
+    div.footer {
+        background: #03121f;;
+        padding: 1em;
+    }
+    
+    div.footer-content {
+        text-align: center;
+    }
+    
+    div.footer-content h4 {
+        color: #bcc3c7;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    
+    div.footer-content p {
+        color: #88949B;
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+        padding-top: 0.8rem;
+    }
+    
+    div.footer-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+    
+    input[type="text"] {
+        margin-right: 10px;
+        padding: 7px 15px;
+        width: 50%;
+        outline: none;
+        border: 1px solid #bcc3c7;
+        background: transparent;
+        color: #f0f0f0;
+        font-size: 0.5rem;
+        border-radius: 2px;
+    }
+    
+    input[type="email"] {
+        margin-right: 10px;
+        padding: 7px 15px;
+        width: 50%;
+        outline: none;
+        border: 1px solid #bcc3c7;
+        background: transparent;
+        color: #f0f0f0;
+        font-size: 0.5rem;
+        border-radius: 2px;
+    }
+    
+    ::placeholder {
+        color: #A6A5AA;
+    }
+    
+    div.footer-textarea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    
+    textarea {
+        width: 100%;
+        height: 100px;
+        padding: 0.5rem;
+        outline: none;
+        border: 1px solid #bcc3c7;
+        background: transparent;
+        color: #f0f0f0;
+    }
+    
+    div.footer-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    
+    div.footer-btn a {
+        background: #8dc2f7;
+        text-decoration: none;
+        color: #03121f;
+        font-size: 0.5rem;
+        padding: 5px 40px;
+        border-radius: 3px;
+        letter-spacing: 2px;
+        font-weight: 800;
+    }
+    
+    div.footer h6 {
+        text-align: center;
+        color: #88949B;
+        font-size: 0.5rem;
+        padding-top: 4rem;
     }
 }
