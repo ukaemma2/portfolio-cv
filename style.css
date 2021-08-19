@@ -80,10 +80,10 @@ p{
     margin: auto;
 }
 .img1 {
-    width: 15%;
+    width: 42%;
 }
 .img2 {
-    width: 12%
+    width: 45%
 }
 .img3 {
     width: 30%
@@ -172,6 +172,8 @@ h5{
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
     height: var(--ntp-realbox-height);
     background-color: white;
+    margin-bottom: 1em;
+    padding-top: 1em;
     width: 50%;
     cursor:pointer;
     /* padding-top: 1em; */
@@ -195,6 +197,8 @@ h5{
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
     height: var(--ntp-realbox-height);
     width: 50%;
+    margin-bottom: 1em;
+    padding-top: 1em;
     background-color: white;
     cursor:pointer;
     /* padding-top: 1em; */
